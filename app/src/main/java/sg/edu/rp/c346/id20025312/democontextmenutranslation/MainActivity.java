@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if (wordClicked.equalsIgnoreCase("hello")) {
-            if(item.getItemId()==0) { //check whether the selected menu item ID is 0
+            if (item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
                 tvTranslatedText.setText("Hello");
                 Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         } else if (wordClicked.equalsIgnoreCase("bye")) {
-            if(item.getItemId()==0) { //check whether the selected menu item ID is 0
+            if (item.getItemId()==0) { //check whether the selected menu item ID is 0
                 //code for action
                 tvTranslatedText2.setText("Bye");
                 Toast.makeText(MainActivity.this, "English is chosen", Toast.LENGTH_SHORT).show();
